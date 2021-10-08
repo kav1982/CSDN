@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: ad6d32ecc7dce684eb553102fbb6635f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -38,10 +38,15 @@ Material:
     m_Floats:
     - _Cutoff: 0.5
     - _InvFade: 1
-    - _Tex_V_Speed: 0.2
-    - _Tex_u_Speed: 0.06
+    - _LerpOpt: 0.248
+    - _Lerppos: 0.249
+    - _Smoothsmock: 0.51
+    - _Smoothvalue: 0.21
+    - _Tex_V_Speed: 0.08
+    - _Tex_u_Speed: 0.18
+    - _node_3564: 0.39
     m_Colors:
     - _BlomeColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color2: {r: 3.481, g: 1.0803103, b: 0, a: 1}
-    - _SmokeColor: {r: 4.337, g: 2.5203867, b: 0.5740147, a: 1}
+    - _Color2: {r: 3.9459124, g: 1.5842315, b: 0.5025455, a: 1}
+    - _SmokeColor: {r: 4.424614, g: 3.6859136, b: 2.9010441, a: 1}
     - _TintColor: {r: 0.118, g: 0.118, b: 0.118, a: 1}
